@@ -679,7 +679,7 @@ $EndComp
 Wire Wire Line
 	1000 6750 1000 6650
 $Comp
-L SchmillipKiCADLibrary:MP2359DJ-LF-Z U1
+L STM32F4_REV2-rescue:MP2359DJ-LF-Z-SchmillipKiCADLibrary U1
 U 1 1 5F7EC586
 P 5825 1250
 F 0 "U1" H 5825 1750 50  0000 C CNN
@@ -1290,7 +1290,7 @@ USART3_TX
 Text GLabel 9100 4250 0    50   Input ~ 0
 USART3_RX
 $Comp
-L Connector:USB_B_Micro J5
+L STM32F4_REV2-rescue:USB_B_Micro-Connector J5
 U 1 1 5F973FD8
 P 6775 5600
 F 0 "J5" H 6775 6100 50  0000 C CNN
